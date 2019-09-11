@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Contains the files and models used for the openclassroom activity on the backend of the go full stack course ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/obumnwabude/openclassrooms-go-full-stack-backend-activity"
+  },
+  "keywords": [
+    "backend",
+    "mean-stack"
+  ],
+  "author": "Obum Nwabude",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
